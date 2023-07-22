@@ -204,7 +204,7 @@
     <h3 class="text-center text-3xl lg:text-5xl font-semibold my-24">Happy <span class="text-bike-primary"> Clients says</span></h3>
     <section class="flex flex-col lg:flex-row lg:gap-48 justify-center mb-14">
       <!-- card one -->
-      <div class="card w-96 bg-base-100 shadow-xl">
+      <div class="card lg:w-96 bg-base-100 shadow-xl">
         <figure class="px-10 pt-10">
           <img class="w-[150px]" src="assests/photos/images/others/user-1.png" alt="client" class="rounded-xl" />
         </figure>
@@ -229,7 +229,7 @@
         </div>
       </div>
       <!-- card two -->
-      <div class="card w-96 bg-base-100 shadow-xl">
+      <div class="card lg:w-96 bg-base-100 shadow-xl">
         <figure class="px-10 pt-10">
           <img class="w-[150px]" src="assests/photos/images/others/user-2.png" alt="client" class="rounded-xl" />
         </figure>
@@ -254,7 +254,7 @@
         </div>
       </div>
       <!-- card three -->
-      <div class="card w-96 bg-base-100 shadow-xl">
+      <div class="card lg:w-96 bg-base-100 shadow-xl">
         <figure class="px-10 pt-10">
           <img class="w-[150px]" src="assests/photos/images/others/user-3.png" alt="client" class="rounded-xl" />
         </figure>
@@ -280,10 +280,76 @@
       </div>
       
     </section>
+    <!-- FAQ section start -->
+    <h3 class="text-center text-3xl lg:text-5xl font-semibold my-24">Frequently Asked <span class="text-bike-primary"> Questions</span></h3>
+    <section class="flex flex-col lg:flex-row container mx-auto lg:my-9 px-5 mb-10">
+    <div class="flex-1">
+      <img class="w-[278px] mx-auto" src="assests/photos/images/others/faq.png" alt="">
+    </div>
+    <div class="flex-1">
+      <div class="collapse collapse-plus bg-base-200 mb-5">
+        <input type="radio" name="my-accordion-3" checked="checked" /> 
+        <div class="collapse-title text-xl font-medium">
+          <p>Lorem ipsum dolor sit amet ?</p>
+          <Translate text="Click to open this one and close others" />
+        </div>
+        <div class="collapse-content"> 
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quis hic sapiente fugiat nam aliquam. Ut numquam nulla a, voluptate ullam itaque officiis expedita nostrum illum eveniet at praesentium aliquid!</p>
+        </div>
+      </div>
+      <div class="collapse collapse-plus bg-base-200 mb-5">
+        <input type="radio" name="my-accordion-3" /> 
+        <div class="collapse-title text-xl font-medium">
+          <p>Where Do You Live ? 
+          </p>
+          <Translate text="Click to open this one and close others" />
+        </div>
+        <div class="collapse-content"> 
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quis hic sapiente fugiat nam aliquam. Ut numquam nulla a, voluptate ullam itaque officiis expedita nostrum illum eveniet at praesentium aliquid!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quis hic sapiente fugiat nam aliquam. Ut numquam nulla a, voluptate ullam itaque officiis expedita nostrum illum eveniet at praesentium aliquid!</p>
+        </div>
+      </div>
+      <div class="collapse collapse-plus bg-base-200">
+        <input type="radio" name="my-accordion-3" /> 
+        <div class="collapse-title text-xl font-medium">
+          <p>How Are You?
+          </p>
+          <Translate text="Click to open this one and close others" />
+        </div>
+        <div class="collapse-content"> 
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quis hic sapiente fugiat nam aliquam. Ut numquam nulla a, voluptate ullam itaque officiis expedita nostrum illum eveniet at praesentium aliquid!</p>
+        </div>
+      </div>
+    </div>
+  </section>
   </main>
-  <footer>
+  <!-- footer -->
+  <footer class="footer  bg-black text-neutral-content">
+    <div class="lg:mx-[160px] m-5">
+    <div class="flex lg:gap-6">
+      <p>Download Now</p>
+      <p>License</p>
+    </div>
+    <div>
+      <ul class="flex flex-col lg:flex-row lg:space-x-16 lg:my-6">
+        <li><a href=""> Home</a></li>    
+        <li><a href="">Features</a></li>    
+        <li><a href=""> Pricing</a></li>    
+        <li><a href=""> Carrer</a></li>    
+        <li><a href=""> Privacy Policy</a></li>    
+      </ul>
+    </div>
 
+      <p>© 2020 bike. All rights reserved</p>
+    </div> 
+    <div>
+      <div class="grid grid-col-1 lg:gap-4 m-5">
+        <a>Get the App</a> 
+        <a><img class="w-36 items-center" src="assests/photos/images/others/android.png" alt=""></a> 
+        <a><img class="w-36" src="assests/photos/images/others/ios.png" alt=""></a>
+      </div>
+    </div>
   </footer>
+
 </body>
 
 </html>
